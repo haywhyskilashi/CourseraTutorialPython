@@ -1,5 +1,6 @@
 # create onscreen turtle
-import turtle    # allows to use the turtle library
+import turtle, random    # allows to use the turtle library
+import math
 backGroundColor = input("What color background would you like? ")
 
 
@@ -128,6 +129,42 @@ for size in range(3):
     nikea.stamp()
 
 
+# prob = random.random()
+# print(prob)
+#
+# diceThrow = random.randrange(1,7)
+# print(diceThrow)
+bob = turtle.Turtle()
+
+for _ in range(8):
+    bob.right(90)
+    bob.forward(50)
+    bob.left(90)
+    bob.forward(50)
+    bob.left(90)
+    bob.forward(50)
+    bob.left(90)
+    bob.forward(50)
+    bob.right(45)
+    bob.forward(50)
+    bob.right(90)
+    bob.forward(50)
+
+
+boob = turtle.Turtle()
+
+
+boob.right(90)
+boob.forward(50)
+boob.left(90)
+boob.forward(50)
+boob.left(90)
+boob.forward(50)
+boob.left(90)
+boob.forward(50)
+boob.right(135)
+
+dist = math.sqrt(50*50/2)
 
 wn.exitonclick()
 
